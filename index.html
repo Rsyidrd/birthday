@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birtday, Alya Maemanah!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="confetti"></div>
+    
+    <!-- Header dengan animasi -->
+    <header class="fade-in">
+        <h1>Birtday, <span id="name">Alya Maemanag</span>!</h1>
+        <p class="subtitle">Hari ini adalah hari spesial untukmu!</p>
+        <button id="musicBtn" class="music-btn">🎵 Putar Musik</button>
+    </header>
+
+    <!-- Video Uc
+
+    <!-- Galeri Foto -->
+    <section id="gallery" class="section">
+        <h2> Galeri Kenangan</h2>
+        <div class="photo-grid" id="photoGrid">
+            <!-- Foto akan di-generate oleh JavaScript -->
+        </div>
+    </section>
+
+    <!-- Pesan Spesial -->
+    <section id="messages" class="section">
+        <h2>✨ Pesan Spesial</h2>
+        <div class="message-container">
+            <div class="message-balloon">
+                <p id="randomMessage">Klik tombol untuk melihat pesan!</p>
+            </div>
+            <button id="showMessageBtn" class="cta-button">Tampilkan Pesan</button>
+        </div>
+    </section>
+
+    <!-- Timer Hitung Mundur (jika ulang tahun belum tiba) -->
+    <section id="countdown" class="section">
+        <h2>⏳ Menuju Hari Spesialmu!</h2>
+        <div class="countdown-container">
+            <div class="countdown-box">
+                <span id="days">00</span>
+                <p>Hari</p>
+            </div>
+            <div class="countdown-box">
+                <span id="hours">00</span>
+                <p>Jam</p>
+            </div>
+            <div class="countdown-box">
+                <span id="minutes">00</span>
+                <p>Menit</p>
+            </div>
+            <div class="countdown-box">
+                <span id="seconds">00</span>
+                <p>Detik</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Dibuat oleh y | © 2025</p>
+    </footer>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
